@@ -1,0 +1,539 @@
+.schem-container {
+  width: 1600px;
+  height: 680px;
+  overflow: auto;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.button-group {
+  position: absolute;
+  right: 50px;
+  bottom: 50px
+}
+
+.schem {
+  width: 1500px;
+  height: 663px;
+  position: relative;
+}
+
+.county {
+  width: 70px;
+  height: 48px;
+  border-radius: 4px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0B1F33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Федеральные округа */
+.county-1 {
+  left: 16px;
+  top: 16px;
+}
+.county-2 {
+  left: 664px;
+  top: 47px;
+}
+.county-3 {
+  left: 488px;
+  top: 99px;
+}
+.county-4 {
+  left: 142px;
+  top: 415px;
+}
+.county-5 {
+  left: 738px;
+  top: 335px;
+}
+.county-6 {
+  left: 586px;
+  top: 599px;
+}
+.county-7 {
+  left: 914px;
+  top: 179px;
+}
+.county-8 {
+  left: 1164px;
+  top: 207px;
+}
+.county-9 {
+  left: 1414px;
+  top: 391px;
+}
+
+.region {
+  width: 70px;
+  height: 48px;
+  border-radius: 4px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #E4ECFD;
+  color: #0B1F33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.region p {
+  margin: 0;
+}
+
+.region-default {
+  background-color: #E4ECFD;
+}
+
+.region-unsatisfactory {
+  background-color: #EE3F58;
+  color: #ffffff;
+}
+
+.region-satisfactory {
+  background-color: #FED13E;
+}
+
+.region-good {
+  background-color: #FEF0CC;
+}
+
+.region-great {
+  background-color: #DDF5E7;
+}
+
+/* 1: "АлтКр", */
+.region-1 {
+  left: 1016px;
+  top: 363px;
+}
+/* 2: "Амур", */
+.region-2 {
+  left: 1266px;
+  top: 287px;
+}
+/* 3: "Арханг", */
+.region-3 {
+  left: 664px;
+  top: 99px;
+}
+/* 4: "Астрах", */
+.region-4 {
+  left: 586px;
+  top: 467px;
+}
+/* 5: "Белгор", */
+.region-5 {
+  left: 340px;
+  top: 359px;
+}
+/* 6: "Брянск", */
+.region-6 {
+  left: 192px;
+  top: 255px;
+}
+/* 7: "Влад", */
+.region-7 {
+  left: 414px;
+  top: 203px;
+}
+/* 8: "Волгог", */
+.region-8 {
+  left: 512px;
+  top: 415px;
+}
+/* 9: "Волог", */
+.region-9 {
+  left: 238px;
+  top: 68px;
+}
+/* 10: "Ворон", */
+.region-10 {
+  left: 414px;
+  top: 359px;
+}
+/* 11: "Евр", */
+.region-11 {
+  left: 1266px;
+  top: 339px;
+}
+/* 12: "Забайк", */
+.region-12 {
+  left: 1192px;
+  top: 391px;
+}
+/* 13: "Иван", */
+.region-13 {
+  left: 414px;
+  top: 151px;
+}
+/* 14: "Иркут", */
+.region-14 {
+  left: 1164px;
+  top: 259px;
+}
+/* 15: "КБР", */
+.region-15 {
+  left: 364px;
+  top: 599px;
+}
+/* 16: "Калин", */
+.region-16 {
+  left: 16px;
+  top: 177px;
+}
+/* 17: "Калуж", */
+.region-17 {
+  left: 266px;
+  top: 203px;
+}
+/* 18: "Камчат", */
+.region-18 {
+  left: 1414px;
+  top: 183px;
+}
+/* 19: "КЧР", */
+.region-19 {
+  left: 364px;
+  top: 547px;
+}
+/* 20: "Кемер", */
+.region-20 {
+  left: 1090px;
+  top: 259px;
+}
+/* 21: "Киров", */
+.region-21 {
+  left: 664px;
+  top: 179px;
+}
+/* 22: "Костр", */
+.region-22 {
+  left: 488px;
+  top: 151px;
+}
+/* 23: "Красн", */
+.region-23 {
+  left: 364px;
+  top: 467px;
+}
+/* 24: "КрасЯр", */
+.region-24 {
+  left: 1090px;
+  top: 207px;
+}
+/* 25: "Курган", */
+.region-25 {
+  left: 914px;
+  top: 283px;
+}
+/* 26: "Курск", */
+.region-26 {
+  left: 266px;
+  top: 307px;
+}
+/* 27: "ЛенОб", */
+.region-27 {
+  left: 90px;
+  top: 68px;
+}
+/* 28: "Липецк", */
+.region-28 {
+  left: 340px;
+  top: 307px;
+}
+/* 29: "Магад", */
+.region-29 {
+  left: 1340px;
+  top: 235px;
+}
+/* 30: "МосОб", */
+.region-30 {
+  left: 340px;
+  top: 203px;
+}
+/* 31: "Мурм", */
+.region-31 {
+  left: 164px;
+  top: 16px;
+}
+/* 32: "Нижег", */
+.region-32 {
+  left: 516px;
+  top: 231px;
+}
+/* 33: "Новгор", */
+.region-33 {
+  left: 164px;
+  top: 120px;
+}
+/* 34: "Нск", */
+.region-34 {
+  left: 1016px;
+  top: 311px;
+}
+/* 35: "Омск", */
+.region-35 {
+  left: 942px;
+  top: 363px;
+}
+/* 36: "Орен", */
+.region-36 {
+  left: 664px;
+  top: 335px;
+}
+/* 37: "Орлов", */
+.region-37 {
+  left: 266px;
+  top: 255px;
+}
+/* 38: "Пенз", */
+.region-38 {
+  left: 516px;
+  top: 335px;
+}
+/* 39: "Перм", */
+.region-39 {
+  left: 738px;
+  top: 179px;
+}
+/* 40: "Прим", */
+.region-40 {
+  left: 1340px;
+  top: 391px;
+}
+/* 41: "Псков", */
+.region-41 {
+  left: 90px;
+  top: 177px;
+}
+/* 42: "Адыг", */
+.region-42 {
+  left: 290px;
+  top: 467px;
+}
+/* 43: "РесАлт", */
+.region-43 {
+  left: 1016px;
+  top: 415px;
+}
+/* 44: "Башк", */
+.region-44 {
+  left: 738px;
+  top: 283px;
+}
+/* 45: "Бурят", */
+.region-45 {
+  left: 1192px;
+  top: 339px;
+}
+/* 46: "Дагест", */
+.region-46 {
+  left: 586px;
+  top: 547px;
+}
+/* 47: "Ингуш", */
+.region-47 {
+  left: 512px;
+  top: 599px;
+}
+/* 48: "Калм", */
+.region-48 {
+  left: 512px;
+  top: 467px;
+}
+/* 49: "Карел", */
+.region-49 {
+  left: 164px;
+  top: 68px;
+}
+/* 50: "Коми", */
+.region-50 {
+  left: 738px;
+  top: 99px;
+}
+/* 51: "Марий", */
+.region-51 {
+  left: 590px;
+  top: 179px;
+}
+/* 52: "Мрд", */
+.region-52 {
+  left: 516px;
+  top: 283px;
+}
+/* 53: "Якут", */
+.region-53 {
+  left: 1266px;
+  top: 235px;
+}
+/* 54: "Осетия", */
+.region-54 {
+  left: 438px;
+  top: 599px;
+}
+/* 55: "Татар", */
+.region-55 {
+  left: 664px;
+  top: 231px;
+}
+/* 56: "Тыва", */
+.region-56 {
+  left: 1090px;
+  top: 363px;
+}
+/* 57: "Хакас", */
+.region-57 {
+  left: 1090px;
+  top: 311px;
+}
+/* 58: "Ростов", */
+.region-58 {
+  left: 438px;
+  top: 467px;
+}
+/* 59: "Рязан", */
+.region-59 {
+  left: 414px;
+  top: 255px;
+}
+/* 60: "Самар", */
+.region-60 {
+  left: 664px;
+  top: 283px;
+}
+/* 61: "Сарат", */
+.region-61 {
+  left: 590px;
+  top: 335px;
+}
+/* 62: "Сахал", */
+.region-62 {
+  left: 1414px;
+  top: 287px;
+}
+/* 63: "Сверд", */
+.region-63 {
+  left: 840px;
+  top: 283px;
+}
+/* 64: "Смол", */
+.region-64 {
+  left: 192px;
+  top: 203px;
+}
+/* 65: "Ставр", */
+.region-65 {
+  left: 438px;
+  top: 547px;
+}
+/* 66: "Тамбов", */
+.region-66 {
+  left: 414px;
+  top: 307px;
+}
+/* 67: "Твер", */
+.region-67 {
+  left: 266px;
+  top: 151px;
+}
+/* 68: "Томск", */
+.region-68 {
+  left: 1016px;
+  top: 259px;
+}
+/* 69: "Тул", */
+.region-69 {
+  left: 340px;
+  top: 255px;
+}
+/* 70: "Тюмен", */
+.region-70 {
+  left: 914px;
+  top: 231px;
+}
+/* 71: "Удмур", */
+.region-71 {
+  left: 738px;
+  top: 231px;
+}
+/* 72: "Ульян", */
+.region-72 {
+  left: 590px;
+  top: 283px;
+}
+/* 73: "Хабар", */
+.region-73 {
+  left: 1340px;
+  top: 287px;
+}
+/* 74: "Челяб", */
+.region-74 {
+  left: 840px;
+  top: 335px;
+}
+/* 75: "Чечня", */
+.region-75 {
+  left: 512px;
+  top: 547px;
+}
+/* 76: "Чуваш", */
+.region-76 {
+  left: 590px;
+  top: 231px;
+}
+/* 77: "Чукот", */
+.region-77 {
+  left: 1340px;
+  top: 183px;
+}
+/* 78: "Яросл", */
+.region-78 {
+  left: 340px;
+  top: 99px;
+}
+/* 79: "Спб", */
+.region-79 {
+  left: 90px;
+  top: 120px;
+}
+/* 80: "Мск", */
+.region-80 {
+  left: 340px;
+  top: 151px;
+}
+/* 81: "НАО", */
+.region-81 {
+  left: 738px;
+  top: 47px;
+}
+/* 82: "ХМАО", */
+.region-82 {
+  left: 840px;
+  top: 231px;
+}
+/* 83: "ЯНАО", */
+.region-83 {
+  left: 840px;
+  top: 179px;
+}
+/* 84: "Севаст", */
+.region-84 {
+  left: 142px;
+  top: 467px;
+}
+/* 85: "Крым" */
+.region-85 {
+  left: 216px;
+  top: 467px;
+}
+

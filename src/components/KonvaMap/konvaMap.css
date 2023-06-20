@@ -1,0 +1,61 @@
+.container-map {
+  width: 100%;
+  max-width: 1500px;
+  min-height: 663px;
+  max-height: 670px;
+  position: relative;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 8px rgba(11, 31, 51, 0.18));
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.button-group button {
+  width: 40px;
+  height: 40px;
+  font-size: 36px;
+  color: #0D4CD3;
+  background: #FFFFFF;
+  border: none;
+  opacity: .8;
+}
+
+.button-group button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.tooltip {
+  max-width: 210px;
+  display: none;
+  padding: 16px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(11, 31, 51, 0.18);
+  border-radius: 12px;
+}
+
+.tooltip-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B1F33;
+  margin: 0;
+  text-align: left;
+}
+
+.tooltip-date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #66727F;
+  margin: 0;
+  text-align: left;
+}
